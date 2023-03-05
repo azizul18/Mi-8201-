@@ -1,0 +1,75 @@
+/* universel selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/* name selector */
+body{
+ background-color: darksalmon;
+ color: white;
+}
+/* id selocter */
+#admin-box{
+ padding: 30px;
+ width: 50%;
+ border: 2px solid black;
+ margin: 10% auto;
+ text-align: center;
+}
+/* comminator selector */
+#admin h1{
+    
+font-size: 35px;
+line-height: 35px;
+margin: 10px 0px;
+font-family: 'Courier New', Courier, monospace;
+}
+/* grouping seloctor */
+input,label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+input{
+    background-color: transparent;
+    border: 2px solid;
+    color: white;
+}
+/* attibute seloctor */
+input[type="submit"]{
+    margin: 15px auto;
+}
+input[type="submit"]:hover{
+    background-color: aliceblue;
+    color: black;
+}
+input:focus{
+    background-color: #fff;
+    color: black;
+
+}
+input::placeholder{
+    color: #fff;
+    
+}
+/* class selector */
+.pg{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.pg a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
